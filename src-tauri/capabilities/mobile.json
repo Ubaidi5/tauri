@@ -1,0 +1,8 @@
+{
+  "$schema": "../gen/schemas/mobile-schema.json",
+  "identifier": "mobile",
+  "description": "Plugins that only exist on iOS and Android",
+  "platforms": ["iOS", "android"],
+  "windows": ["main"],
+  "permissions": ["biometric:default", "haptics:default"]
+}
